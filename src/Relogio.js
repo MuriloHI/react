@@ -2,13 +2,13 @@ import { useState, useEffect } from 'react';
 
 export default function Relogio() {
 
-  const [horaAtual, definirHoraAtual] = useState(new Date());
+  const [horaAtual, setDefinirHoraAtual] = useState(new Date());
 
   useEffect(() => {
 
     const intervalo = setInterval(() => {
       const novaHora = new Date();            
-      definirHoraAtual(novaHora);           
+      setDefinirHoraAtual(novaHora);           
     }, 1000);
 
     return () => {
