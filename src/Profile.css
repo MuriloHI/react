@@ -1,0 +1,41 @@
+.section_completo {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.titulo {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.subtitulo {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.section_galeria {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.section_galeria img {
+  width: 200px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+.section_galeria img:hover {
+  transform: scale(1.05);
+}
+
+.voltar-link {
+  display: inline-block;
+  margin-top: 30px;
+  text-decoration: none;
+  color: #3366cc;
+  font-weight: bold;
+}
