@@ -1,0 +1,31 @@
+.bucketList {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+}
+
+.bucketList h1,
+.bubucketList h2 {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.bucketList ul {
+  list-style: none;
+  padding: 0;
+}
+
+.bucketList li {
+  margin: 10px 0;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.bucketList input[type="checkbox"] {
+  transform: scale(1.4);
+  margin-right: 10px;
+}

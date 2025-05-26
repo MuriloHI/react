@@ -1,0 +1,23 @@
+.counter-section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.counter-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.counter-section button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.counter-section button:hover {
+    background-color: #1e7e34;
+}

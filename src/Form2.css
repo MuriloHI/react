@@ -1,0 +1,43 @@
+/* Usei o css do form2 para o form3 também (já q ambos */
+
+.form2-principal {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-family: sans-serif;
+}
+
+.form2-label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: #333;
+}
+
+.form2-input {
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.form2-input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.form2-saida {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #444;
+  text-align: center;
+  font-weight: bold;
+}
