@@ -5,7 +5,7 @@ import ContactList from './ContactList.js';
 export default function Messenger() {
   const [to, setTo] = useState(contacts[0]);
   return (
-    <div>
+    <div className="Messenger"> 
       <ContactList
         contacts={contacts}
         selectedContact={to}

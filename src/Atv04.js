@@ -22,6 +22,7 @@ import './CounterList.css';
 import BucketList from "./BucketList";
 import './BucketList.css';
 import { Link } from "react-router-dom";
+import './Atv05.css';
 
 export default function Atv04() {
     return(
